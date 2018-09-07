@@ -26,7 +26,9 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-      <Judul/>
+      <Judul judul="BIODATA"/>
+      <Judul judul="LOGIN"/>
+      <Judul judul="FORM"/>
       <Image
       	style={{width: 200, height: 250}}
       	source={require('./mpit.png')} />
@@ -49,7 +51,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#D4D4',
   },
   welcome: {
     fontSize: 20,
