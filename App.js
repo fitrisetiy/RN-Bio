@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from 'react';
+import Judul from './Components/Judul';
 import {
   Platform,
   StyleSheet,
@@ -25,6 +26,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+      <Judul/>
       <Image
       	style={{width: 200, height: 250}}
       	source={require('./mpit.png')} />
