@@ -9,7 +9,8 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  Image
 } from 'react-native';
 
 const instructions = Platform.select({
@@ -24,6 +25,9 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+      <Image
+      	style={{width: 200, height: 250}}
+      	source={require('./mpit.png')} />
         <Text style={styles.welcome}>
           Nama : Fitri Setiyani
         </Text>
