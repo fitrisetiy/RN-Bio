@@ -1,0 +1,3 @@
+rootProject.name = 'fitri14'
+
+include ':app'
