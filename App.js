@@ -31,7 +31,7 @@ export default class App extends Component<Props> {
       <Judul judul="FORM"/>
       <Image
       	style={{width: 200, height: 250}}
-      	source={require('./mpit.png')} />
+      	source={require('./saya.png')} />
         <Text style={styles.welcome}>
           Nama : Fitri Setiyani
         </Text>

@@ -11,8 +11,10 @@ class Judul extends React.Component{
 }
 const edit = {
 	judul :{
-		color:'#00f',
+		color:'#000',
 		fontSize: 30,
+		justifyContent: 'center',
+		textAlign: 'center',
 		fontWeight:"bold"
 
 	}
